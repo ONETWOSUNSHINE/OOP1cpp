@@ -5,16 +5,11 @@
 #include <ctime>
 template<typename T>
 class NewContainer {
-public:
-	//class Iterator;
-	//friend class Iterator;
 
 private:
 	class Element
 	{
 	public:
-		//friend class NewContainer<T>;
-		//friend class Iterator;
 		Element(const T& elem) : value(elem) {}
 		Element() {}
 		void print_value()
